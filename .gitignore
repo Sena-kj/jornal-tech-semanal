@@ -5,3 +5,13 @@
 # OS
 Thumbs.db
 .DS_Store
+
+# Segredos e artefatos locais
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.zip
